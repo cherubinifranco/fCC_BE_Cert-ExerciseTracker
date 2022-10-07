@@ -99,7 +99,7 @@ function addExercise(req, res){
   if(req.body.date){
     date = new Date(req.body.date)
   } else {
-    date = Date.now()
+    date = new Date()
   }
   const description = (req.body.description).toString();
   const duration = (req.body.duration) * 1;
