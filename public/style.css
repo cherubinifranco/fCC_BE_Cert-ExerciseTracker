@@ -27,6 +27,7 @@ form p{
   margin: 0;
 }
 form input{
+  color: white;
   display:list-item;
   margin: 10px;
   height: 20px;
